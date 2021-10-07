@@ -1,0 +1,116 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Wisnu",
+            "username": "Wisnu",
+            "email": "Wisnu@gmail.com",
+            "address": "Jalan"
+        },
+        {
+            "id": 2,
+            "name": "Adi",
+            "username": "Adi",
+            "email": "Adi@gmail.com",
+            "address": "Parang"
+        },
+        {
+            "id": 3,
+            "name": "Pramono",
+            "username": "Pramono",
+            "email": "Pramono@gmail.com",
+            "address": "Kembang"
+        },
+        {
+            "id": 4,
+            "name": "Kagura",
+            "username": "Kagura",
+            "email": "Kagura@gmail.com",
+            "address": "Kabukicho"
+        },
+        {
+            "id": 5,
+            "name": "Salmon",
+            "username": "Salmon",
+            "email": "Salmon@gmail.com",
+            "address": "Pasifik"
+        },
+        {
+            "id": 6,
+            "name": "Mona",
+            "username": "Mona",
+            "email": "Mona@gmail.com",
+            "address": "Solo"
+        },
+        {
+            "id": 7,
+            "name": "Dewina",
+            "username": "Dewina",
+            "email": "Dewina@gmail.com",
+            "address": "Osaka"
+        },
+        {
+            "id": 8,
+            "name": "Putri",
+            "username": "Putri",
+            "email": "Putri@gmail.com",
+            "address": "Aachen"
+        },
+        {
+            "id": 9,
+            "name": "Firmani",
+            "username": "Firmani",
+            "email": "Firmani@gmail.com",
+            "address": "Maroko"
+        },
+        {
+            "id": 10,
+            "name": "Nando",
+            "username": "Nando",
+            "email": "Nando@gmail.com",
+            "address": "Pedurungan"
+        },
+        {
+            "id": 9,
+            "name": "Zacan",
+            "username": "Zacan",
+            "email": "Zacan@gmail.com",
+            "address": "Bali"
+        },
+        {
+            "id": 9,
+            "name": "Marsha",
+            "username": "Marsha",
+            "email": "Marsha@gmail.com",
+            "address": "Malang"
+        },
+        {
+            "id": 9,
+            "name": "Yonie",
+            "username": "Yonie",
+            "email": "Yonie@gmail.com",
+            "address": "Seoul"
+        },
+        {
+            "id": 9,
+            "name": "Ariel",
+            "username": "Ariel",
+            "email": "Ariel@gmail.com",
+            "address": "Depok"
+        },
+        {
+            "id": 9,
+            "name": "Fuji",
+            "username": "Fuji",
+            "email": "Fuji@gmail.com",
+            "address": "Kalianyar"
+        },
+        {
+            "id": 9,
+            "name": "Bani",
+            "username": "Bani",
+            "email": "Bani@gmail.com",
+            "address": "Tangerang"
+        }
+    ]
+}
