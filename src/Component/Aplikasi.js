@@ -80,7 +80,7 @@ export default function Aplikasi() {
   return (
     <>
         <div>
-    <h1 className="margin"><center>Tugas Modul 5 - Kelompok 13</center> </h1>
+    <h1 className="margin"><center>Pameran Sepatu</center> </h1>
     </div>
     <div>
       <ThemeContext.Provider value={valueTheme}>
@@ -116,10 +116,10 @@ export default function Aplikasi() {
                 <Card>
                   <CardActionArea onClick={lihatModal}>
                     <CardContent style={{ backgroundColor: "#9eadb6" }}>
-                      <Typography style={{color:"#ffffff"}}>Nama: {results.name}</Typography>
-                      <Typography>Username : {results.username}</Typography>
-                      <Typography>Email : {results.email}</Typography>
-                      <Typography>Alamat : {results.address}</Typography>
+                      <Typography style={{color:"#ffffff"}}>Nama: {results.nama}</Typography>
+                      <Typography>Warna : {results.warna}</Typography>
+                      <Typography>Ukuran : {results.ukuran}</Typography>
+                      <img src = {results.imgsrc} alt = {results.imgalt}/>
                     </CardContent>
                   </CardActionArea>
                 </Card>
