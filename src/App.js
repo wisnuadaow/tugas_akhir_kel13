@@ -16,12 +16,15 @@ export default function App() {
               fontWeight: "bold",
             }}
           >
-
+            
           </div>
           </header>
           <Switch>
+          <Aplikasi nama="Wisnu Adi Pramono" 
+          nim="21120118120039"/>
           <Route path="/" exact component={Aplikasi} />
-        </Switch>
+          
+          </Switch>
         </BrowserRouter>
         );
 }

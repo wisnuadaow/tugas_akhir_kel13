@@ -47,10 +47,11 @@ function Text(props) {
   );
 }
 
-export default function Aplikasi() {
+export default function Aplikasi(props) {
   const [bukaModal, tampilModal] = useState(false);
   const [db, setDb] = useState(false);
   const [valueTheme, setValueTheme] = useState(themes.dark); //use State
+  const {nama, nim} = props;
 
   const lihatModal = () => {
     tampilModal(true);
@@ -119,6 +120,8 @@ export default function Aplikasi() {
                       <Typography style={{color:"#ffffff"}}>Nama: {results.nama}</Typography>
                       <Typography>Warna : {results.warna}</Typography>
                       <Typography>Ukuran : {results.ukuran}</Typography>
+                      <Typography>{nama}</Typography>
+                      <Typography>{nim}</Typography>
                       <img src = {results.imgsrc} alt = {results.imgalt}/>
                     </CardContent>
                   </CardActionArea>
@@ -146,13 +149,23 @@ export default function Aplikasi() {
       </ThemeContext.Provider>
       {/* <Axio /> */}
     </div>
+
       <Modal title="Deskripsi"
         visible={bukaModal}
         onOk={bukatutup}
         onCancel={bukatutup}
       >
-          <p>Detail Profil</p>
-          <p>Kelompok 13</p>
+          {db.length > 0 && db.map((results ) => 
+             (
+              <Typography>
+                Nama: {results.nama}
+                <br></br>
+                Warna : {results.warna}
+                <br></br>
+                Ukuran : {results.ukuran}
+                </Typography>
+              
+             ))}
       </Modal>
     </>
   );
