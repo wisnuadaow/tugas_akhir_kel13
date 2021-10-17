@@ -20,8 +20,8 @@ export default function App() {
           </div>
           </header>
           <Switch>
-          <Aplikasi nama="Wisnu Adi Pramono" 
-          nim="21120118120039"/>
+          <Aplikasi nama="*Produk lokal original*" 
+          nim="------------TA RPLBK 2021------------"/>
           <Route path="/" exact component={Aplikasi} />
           
           </Switch>

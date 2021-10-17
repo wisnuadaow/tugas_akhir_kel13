@@ -2,10 +2,74 @@
     "users": [
         {
             "id": 1,
-            "nama": "Sepatu",
+            "merk": "TOMKINS",
             "warna": "Hitam",
+            "tipe": "TOMKINS Skool - 2020 3C",
             "ukuran": "44",
-            "imgsrc": "https://i.ibb.co/bgZdZ1x/sepatu-hitam.jpg",
+            "imgsrc": "https://www.tomkins.id/wp-content/uploads/2020/03/3A-Tokopedia-2.jpg",
+            "imgalt": "Sepatu Hitam"
+        },
+        {
+            "id": 1,
+            "merk": "TOMKINS",
+            "warna": "Hitam",
+            "tipe": "TOMKINS Skool - 2020 3C",
+            "ukuran": "44",
+            "imgsrc": "https://www.tomkins.id/wp-content/uploads/2020/03/3A-Tokopedia-2.jpg",
+            "imgalt": "Sepatu Hitam"
+        },
+        {
+            "id": 1,
+            "merk": "TOMKINS",
+            "warna": "Hitam",
+            "tipe": "TOMKINS Skool - 2020 3C",
+            "ukuran": "44",
+            "imgsrc": "https://www.tomkins.id/wp-content/uploads/2020/03/3A-Tokopedia-2.jpg",
+            "imgalt": "Sepatu Hitam"
+        },
+        {
+            "id": 1,
+            "merk": "TOMKINS",
+            "warna": "Hitam",
+            "tipe": "TOMKINS Skool - 2020 3C",
+            "ukuran": "44",
+            "imgsrc": "https://www.tomkins.id/wp-content/uploads/2020/03/3A-Tokopedia-2.jpg",
+            "imgalt": "Sepatu Hitam"
+        },
+        {
+            "id": 1,
+            "merk": "TOMKINS",
+            "warna": "Hitam",
+            "tipe": "TOMKINS Skool - 2020 3C",
+            "ukuran": "44",
+            "imgsrc": "https://www.tomkins.id/wp-content/uploads/2020/03/3A-Tokopedia-2.jpg",
+            "imgalt": "Sepatu Hitam"
+        },
+        {
+            "id": 1,
+            "merk": "TOMKINS",
+            "warna": "Hitam",
+            "tipe": "TOMKINS Skool - 2020 3C",
+            "ukuran": "44",
+            "imgsrc": "https://www.tomkins.id/wp-content/uploads/2020/03/3A-Tokopedia-2.jpg",
+            "imgalt": "Sepatu Hitam"
+        },
+        {
+            "id": 1,
+            "merk": "TOMKINS",
+            "warna": "Hitam",
+            "tipe": "TOMKINS Skool - 2020 3C",
+            "ukuran": "44",
+            "imgsrc": "https://www.tomkins.id/wp-content/uploads/2020/03/3A-Tokopedia-2.jpg",
+            "imgalt": "Sepatu Hitam"
+        },
+        {
+            "id": 1,
+            "merk": "TOMKINS",
+            "warna": "Hitam",
+            "tipe": "TOMKINS Skool - 2020 3C",
+            "ukuran": "44",
+            "imgsrc": "https://www.tomkins.id/wp-content/uploads/2020/03/3A-Tokopedia-2.jpg",
             "imgalt": "Sepatu Hitam"
         }
     ]

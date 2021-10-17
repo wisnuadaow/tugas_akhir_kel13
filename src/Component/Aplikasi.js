@@ -81,7 +81,7 @@ export default function Aplikasi(props) {
   return (
     <>
         <div>
-    <h1 className="margin"><center>Pameran Sepatu</center> </h1>
+    <h1 className="margin"><center>DISPLAY SEPATU LOKAL</center> </h1>
     </div>
     <div>
       <ThemeContext.Provider value={valueTheme}>
@@ -106,7 +106,7 @@ export default function Aplikasi(props) {
             >
               <Grid
           container
-          md={10}
+          md={11}
           spacing={3}
           style={{ marginTop: "auto", marginLeft: "auto", marginRight: "auto", marginButtom: "auto" }}
           
@@ -117,12 +117,12 @@ export default function Aplikasi(props) {
                 <Card>
                   <CardActionArea onClick={lihatModal}>
                     <CardContent style={{ backgroundColor: "#9eadb6" }}>
-                      <Typography style={{color:"#ffffff"}}>Nama: {results.nama}</Typography>
+                      <img src = {results.imgsrc} alt = {results.imgalt} width="255px" height="215px"/>
+                      <Typography style={{color:"#ffffff"}}>Merk: {results.merk} </Typography>
                       <Typography>Warna : {results.warna}</Typography>
-                      <Typography>Ukuran : {results.ukuran}</Typography>
+                      <Typography>Tipe : {results.tipe}</Typography>
                       <Typography>{nama}</Typography>
                       <Typography>{nim}</Typography>
-                      <img src = {results.imgsrc} alt = {results.imgalt} width="200px" height="200px"/>
                     </CardContent>
                   </CardActionArea>
                 </Card>
