@@ -122,7 +122,7 @@ export default function Aplikasi(props) {
                       <Typography>Ukuran : {results.ukuran}</Typography>
                       <Typography>{nama}</Typography>
                       <Typography>{nim}</Typography>
-                      <img src = {results.imgsrc} alt = {results.imgalt}/>
+                      <img src = {results.imgsrc} alt = {results.imgalt} width="200px" height="200px"/>
                     </CardContent>
                   </CardActionArea>
                 </Card>
