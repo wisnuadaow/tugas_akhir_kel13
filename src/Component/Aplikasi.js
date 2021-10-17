@@ -119,8 +119,8 @@ export default function Aplikasi(props) {
                     <CardContent style={{ backgroundColor: "#9eadb6" }}>
                       <img src = {results.imgsrc} alt = {results.imgalt} width="255px" height="215px"/>
                       <Typography style={{color:"#ffffff"}}>Merk: {results.merk} </Typography>
-                      <Typography>Warna : {results.warna}</Typography>
                       <Typography>Tipe : {results.tipe}</Typography>
+                      <Typography>Kategori : {results.kategori}</Typography>
                       <Typography>{nama}</Typography>
                       <Typography>{nim}</Typography>
                     </CardContent>
