@@ -51,7 +51,7 @@ export default function Aplikasi(props) {
   const [bukaModal, tampilModal] = useState(false);
   const [db, setDb] = useState(false);
   const [valueTheme, setValueTheme] = useState(themes.dark); //use State
-  const {nama, nim} = props;
+  const {keterangan, subtitle} = props;
 
   const lihatModal = () => {
     tampilModal(true);
@@ -60,6 +60,7 @@ export default function Aplikasi(props) {
   const bukatutup = () => {
     tampilModal(false);
   };
+  
 
   useEffect(() => {
     axios({
@@ -121,14 +122,17 @@ export default function Aplikasi(props) {
                       <Typography style={{color:"#ffffff"}}>Merk: {results.merk} </Typography>
                       <Typography>Tipe : {results.tipe}</Typography>
                       <Typography>Kategori : {results.kategori}</Typography>
-                      <Typography>{nama}</Typography>
-                      <Typography>{nim}</Typography>
+                      <Typography>{keterangan}</Typography>
+                      <Typography>{subtitle}</Typography>
                     </CardContent>
                   </CardActionArea>
                 </Card>
+                
               </Grid>
+              
             )
           )}
+          
         </Grid>
               <Content tema={valueTheme} />
               <button
@@ -149,24 +153,23 @@ export default function Aplikasi(props) {
       </ThemeContext.Provider>
       {/* <Axio /> */}
     </div>
-
-      <Modal title="Deskripsi"
+    <Modal title="Deskripsi"
         visible={bukaModal}
         onOk={bukatutup}
         onCancel={bukatutup}
       >
-          {db.length > 0 && db.map((results ) => 
+          {db.length > 0 && db.map((results) => 
              (
               <Typography>
-                Nama: {results.nama}
+                Tipe : {results.tipe}
                 <br></br>
                 Warna : {results.warna}
                 <br></br>
                 Ukuran : {results.ukuran}
                 </Typography>
-              
              ))}
       </Modal>
+      
     </>
   );
 }
